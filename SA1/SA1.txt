@@ -1,0 +1,24 @@
+1. Install node-red
+   npm install -g --unsafe-perm node-red
+
+2. Run node-red by following command
+   
+   ->  node-red
+   
+    Open the link http://127.0.0.1:1880/ or what ever is provided on running the command
+
+3. Add a inject and a gauge
+4. Connect inject to the gauge
+
+5. Click on Gauge and set label as Timestamp gauge
+   Click on Groups-> Add new Dashboard Group -> Set Name filed as home, Tab as c140
+   Save the setting
+
+6. Click on inject to open setting and set payload to timestamp
+   Save the settings
+
+7. Click on "Deploy" button
+
+8. Go to http://127.0.0.1:1880/ui/  to see the dashboard and the gauge
+
+9. Click on time stamp button from and see whether the gauge value change in dashboard

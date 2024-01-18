@@ -1,0 +1,113 @@
+[
+    {
+        "id": "476dffdfcee28c31",
+        "type": "mqtt in",
+        "z": "7b56951ad67f2945",
+        "name": "",
+        "topic": "/Temperature",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "ac6659385df72324",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 150,
+        "y": 100,
+        "wires": [
+            [
+                "f8943b5428648f9a",
+                "ddb6e3bce8829533",
+                "97d871a298f4e420"
+            ]
+        ]
+    },
+    {
+        "id": "2ed2ae5961c9f75e",
+        "type": "mqtt in",
+        "z": "7b56951ad67f2945",
+        "name": "",
+        "topic": "/Humidity",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "ac6659385df72324",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 140,
+        "y": 160,
+        "wires": [
+            [
+                "b9f7dd2404bbe442",
+                "920b749ee3090d8a",
+                "5e60d25e3d6f744c"
+            ]
+        ]
+    },
+    {
+        "id": "97d871a298f4e420",
+        "type": "debug",
+        "z": "7b56951ad67f2945",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 340,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "5e60d25e3d6f744c",
+        "type": "debug",
+        "z": "7b56951ad67f2945",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 320,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "ac6659385df72324",
+        "type": "mqtt-broker",
+        "name": "C140",
+        "broker": "broker.emqx.io",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    }
+]

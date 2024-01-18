@@ -1,0 +1,18 @@
+1 Run node-red by following command
+   
+   ->  node-red
+   
+    Open the link http://127.0.0.1:1880/ or what ever is provided on running the command
+
+2. Add two gauges and two chart nodes
+
+3. Connect one gauge and chart to /Temperature node and others to /humidity nodes.   
+
+4. Setup the guages so that they are in one group (Name:Home Tab: C140) Set Labels and Min and Max value of gauges accordingly
+
+5. Setup chart so that they fall in other group (Name:Whether Monitoring) and assign them labels
+
+6. Deploy the node red project.
+
+7. Run the wokwi project https://wokwi.com/projects/386715962692146177 and set humidity and temperature and see output in the nodered console
+
