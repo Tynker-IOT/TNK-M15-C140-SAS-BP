@@ -1,0 +1,12 @@
+1 Run node-red by following command
+   
+   ->  node-red
+   
+    Open the link http://127.0.0.1:1880/ or what ever is provided on running the command
+
+2. Change the color of the gauges so that humidity is shown as white to blue gradient and temperature as blue-green-red gradient
+
+6. Deploy the node red project.
+
+7. Run the wokwi project https://wokwi.com/projects/386715962692146177 and set humidity and temperature and see output in the nodered console
+
