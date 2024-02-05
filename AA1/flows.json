@@ -257,7 +257,7 @@
     {
         "id": "013b1924e54a420e",
         "type": "ui_group",
-        "name": "Wheather Monitoring",
+        "name": "Weather Monitoring",
         "tab": "09df6ccd7f734917",
         "order": 1,
         "disp": true,
